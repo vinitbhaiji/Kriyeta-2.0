@@ -4274,7 +4274,6 @@ blockquote {
 }
 
 .education-category-section {
-	padding-top: 150px;
 	padding-bottom: 150px;
 }
 
@@ -5280,6 +5279,7 @@ blockquote {
 	}
 
 	.under-category-section {
+		padding-top: 30px;
 		padding-bottom: 30px;
 	}
 
