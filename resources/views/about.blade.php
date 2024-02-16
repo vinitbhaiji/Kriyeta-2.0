@@ -22,7 +22,7 @@
   <link href="/public/assets/images/6578292bacaaaf778474bdda_favicon.png" rel="shortcut icon" type="image/x-icon" />
   <link href="/public/assets/images/6578292e454da728965cd378_webclip.png" rel="apple-touch-icon" />
   <script
-    type="text/javascript">window.__WEBFLOW_CURRENCY_SETTINGS = { "currencyCode": "USD", "symbol": "$", "decimal": ".", "fractionDigits": 2, "group": ",", "template": "{{wf {\"path\":\"symbol\",\"type\":\"PlainText\"} }} {{wf {\"path\":\"amount\",\"type\":\"CommercePrice\"} }} {{wf {\"path\":\"currencyCode\",\"type\":\"PlainText\"} }}", "hideDecimalForWholeNumbers": false };</script>
+    type="text/javascript">window.__WEBFLOW_CURRENCY_SETTINGS = { "currencyCode": "USD", "symbol": "$", "decimal": ".", "fractionDigits": 2, "group": ",", "template": "@{{wf {\"path\":\"symbol\",\"type\":\"PlainText\"} }} @{{wf {\"path\":\"amount\",\"type\":\"CommercePrice\"} }} @{{wf {\"path\":\"currencyCode\",\"type\":\"PlainText\"} }}", "hideDecimalForWholeNumbers": false };</script>
 </head>
 
 <body>
