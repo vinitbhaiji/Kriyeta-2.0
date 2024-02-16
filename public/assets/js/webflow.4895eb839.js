@@ -44154,8 +44154,8 @@ Webflow.require("ix2").init({
 	},
 });
 
-Webflow.require("commerce") &&
-	Webflow.require("commerce").init({
-		siteId: "6577019a915bb98abc733614",
-		apiUrl: "https://render.webflow.com",
-	});
+// Webflow.require("commerce") &&
+// 	Webflow.require("commerce").init({
+// 		siteId: "6577019a915bb98abc733614",
+// 		apiUrl: "https://render.webflow.com",
+// 	});
