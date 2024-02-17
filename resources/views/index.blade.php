@@ -1,3 +1,7 @@
+<!DOCTYPE html>
+<html data-wf-domain="frenzzy.webflow.io" data-wf-page="6577019a915bb98abc733643" data-wf-site="6577019a915bb98abc733614"
+    lang="en">
+
 <head>
     <meta charset="utf-8" />
     <title>Frenzzy - Webflow HTML website template</title>
@@ -77,7 +81,8 @@
         <div class="w-layout-blockcontainer main-container w-container">
             <div class="home-category-list-wrapper w-dyn-list">
                 <div role="list" class="home-category-list w-dyn-items">
-                    <div role="listitem" class="w-dyn-item"><a href="/public/entertainment.html"
+                    <div role="listitem" class="w-dyn-item"><a data-w-id="4cd9ff82-9f16-1c9a-a92d-da3323fc9873"
+                            style="opacity:0" href="/public/entertainment.html"
                             class="category-grid-item w-inline-block"><img alt="" loading="lazy"
                                 src="../images/65782fe7dec1e4824058c1d2_post16.jpg"
                                 sizes="(max-width: 479px) 100vw, (max-width: 767px) 46vw, (max-width: 1439px) 22vw, 151px"
@@ -86,9 +91,11 @@
                             <div class="gradient-overlay"></div>
                             <div class="category-name">Entertainment</div><img
                                 src="../images/657706245d964540c2260550_readmore.png" loading="lazy"
+                                style="opacity:0;-webkit-transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
                                 alt="" class="blog-arrow" />
                         </a></div>
-                    <div role="listitem" class="w-dyn-item"><a href="/public/nature.html"
+                    <div role="listitem" class="w-dyn-item"><a data-w-id="4cd9ff82-9f16-1c9a-a92d-da3323fc9873"
+                            style="opacity:0" href="/public/nature.html"
                             class="category-grid-item w-inline-block"><img alt="" loading="lazy"
                                 src="../images/6578309e6326b68e4a349b77_post21.jpg"
                                 sizes="(max-width: 479px) 100vw, (max-width: 767px) 46vw, (max-width: 1439px) 22vw, 151px"
@@ -97,24 +104,107 @@
                             <div class="gradient-overlay"></div>
                             <div class="category-name">Nature</div><img
                                 src="../images/657706245d964540c2260550_readmore.png" loading="lazy"
+                                style="opacity:0;-webkit-transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
                                 alt="" class="blog-arrow" />
                         </a></div>
-                    <div role="listitem" class="w-dyn-item"><a href="/public/travel.html"
+                    <div role="listitem" class="w-dyn-item"><a data-w-id="4cd9ff82-9f16-1c9a-a92d-da3323fc9873"
+                            style="opacity:0" href="/public/gaming.html"
                             class="category-grid-item w-inline-block"><img alt="" loading="lazy"
-                                src="../images/6578334314b7121db281f24f_post17.jpg"
+                                src="../images/657830e615a9a61836170fe6_post24.jpg"
                                 sizes="(max-width: 479px) 100vw, (max-width: 767px) 46vw, (max-width: 1439px) 22vw, 151px"
-                                srcset="https://assets-global.website-files.com/65770570a2946a7c83492a9c/6578334314b7121db281f24f_post17-p-500.jpg 500w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/6578334314b7121db281f24f_post17-p-800.jpg 800w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/6578334314b7121db281f24f_post17.jpg 849w"
+                                srcset="https://assets-global.website-files.com/65770570a2946a7c83492a9c/657830e615a9a61836170fe6_post24-p-500.jpg 500w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/657830e615a9a61836170fe6_post24-p-800.jpg 800w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/657830e615a9a61836170fe6_post24.jpg 849w"
                                 class="blog-category-main-image" />
+                            <div class="gradient-overlay"></div>
+                            <div class="category-name">Gaming</div><img
+                                src="../images/657706245d964540c2260550_readmore.png" loading="lazy"
+                                style="opacity:0;-webkit-transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                                alt="" class="blog-arrow" />
+                        </a></div>
+                    <div role="listitem" class="w-dyn-item"><a data-w-id="4cd9ff82-9f16-1c9a-a92d-da3323fc9873"
+                            style="opacity:0" href="/public/business.html"
+                            class="category-grid-item w-inline-block"><img alt="" loading="lazy"
+                                src="../images/6578310098806a00be591e26_post25.jpg"
+                                sizes="(max-width: 479px) 100vw, (max-width: 767px) 46vw, (max-width: 1439px) 22vw, 151px"
+                                srcset="https://assets-global.website-files.com/65770570a2946a7c83492a9c/6578310098806a00be591e26_post25-p-500.jpg 500w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/6578310098806a00be591e26_post25-p-800.jpg 800w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/6578310098806a00be591e26_post25.jpg 849w"
+                                class="blog-category-main-image" />
+                            <div class="gradient-overlay"></div>
+                            <div class="category-name">Business</div><img
+                                src="../images/657706245d964540c2260550_readmore.png" loading="lazy"
+                                style="opacity:0;-webkit-transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                                alt="" class="blog-arrow" />
+                        </a></div>
+                    <div role="listitem" class="w-dyn-item"><a data-w-id="4cd9ff82-9f16-1c9a-a92d-da3323fc9873"
+                            style="opacity:0" href="/public/science.html"
+                            class="category-grid-item w-inline-block"><img alt="" loading="lazy"
+                                src="../images/657773b343693d77d17d1a02_post1.jpg"
+                                sizes="(max-width: 479px) 100vw, (max-width: 767px) 46vw, (max-width: 1439px) 22vw, 151px"
+                                srcset="https://assets-global.website-files.com/65770570a2946a7c83492a9c/657773b343693d77d17d1a02_post1-p-500.jpg 500w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/657773b343693d77d17d1a02_post1.jpg 849w"
+                                class="blog-category-main-image" />
+                            <div class="gradient-overlay"></div>
+                            <div class="category-name">Science</div><img
+                                src="../images/657706245d964540c2260550_readmore.png" loading="lazy"
+                                style="opacity:0;-webkit-transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                                alt="" class="blog-arrow" />
+                        </a></div>
+                    <div role="listitem" class="w-dyn-item"><a data-w-id="4cd9ff82-9f16-1c9a-a92d-da3323fc9873"
+                            style="opacity:0" href="/public/education.html"
+                            class="category-grid-item w-inline-block"><img alt="" loading="lazy"
+                                src="../images/65782f566d667c772c700afb_post11.jpg"
+                                sizes="(max-width: 479px) 100vw, (max-width: 767px) 46vw, (max-width: 1439px) 22vw, 151px"
+                                srcset="https://assets-global.website-files.com/65770570a2946a7c83492a9c/65782f566d667c772c700afb_post11-p-500.jpg 500w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/65782f566d667c772c700afb_post11-p-800.jpg 800w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/65782f566d667c772c700afb_post11.jpg 849w"
+                                class="blog-category-main-image" />
+                            <div class="gradient-overlay"></div>
+                            <div class="category-name">Education</div><img
+                                src="../images/657706245d964540c2260550_readmore.png" loading="lazy"
+                                style="opacity:0;-webkit-transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                                alt="" class="blog-arrow" />
+                        </a></div>
+                    <div role="listitem" class="w-dyn-item"><a data-w-id="4cd9ff82-9f16-1c9a-a92d-da3323fc9873"
+                            style="opacity:0" href="/public/sport.html"
+                            class="category-grid-item w-inline-block"><img alt="" loading="lazy"
+                                src="../images/65783182471c329927ff4a48_post2.jpg"
+                                sizes="(max-width: 479px) 100vw, (max-width: 767px) 46vw, (max-width: 1439px) 22vw, 151px"
+                                srcset="https://assets-global.website-files.com/65770570a2946a7c83492a9c/65783182471c329927ff4a48_post2-p-500.jpg 500w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/65783182471c329927ff4a48_post2-p-800.jpg 800w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/65783182471c329927ff4a48_post2.jpg 849w"
+                                class="blog-category-main-image" />
+                            <div class="gradient-overlay"></div>
+                            <div class="category-name">Sport</div><img
+                                src="../images/657706245d964540c2260550_readmore.png" loading="lazy"
+                                style="opacity:0;-webkit-transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                                alt="" class="blog-arrow" />
+                        </a></div>
+                    <div role="listitem" class="w-dyn-item"><a data-w-id="4cd9ff82-9f16-1c9a-a92d-da3323fc9873"
+                            style="opacity:0" href="/public/travel.html"
+                            class="category-grid-item w-inline-block"><img alt="" loading="lazy"
+                                src="../images/65780cbcdec1e4824042b46a_post4.jpg" class="blog-category-main-image" />
                             <div class="gradient-overlay"></div>
                             <div class="category-name">Travel</div><img
                                 src="../images/657706245d964540c2260550_readmore.png" loading="lazy"
+                                style="opacity:0;-webkit-transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
                                 alt="" class="blog-arrow" />
                         </a></div>
                 </div>
             </div>
         </div>
     </section>
-
+    <section class="moving-text-section">
+        <div data-w-id="a0231212-b5c8-f0cb-b3f7-89d0e89e298f"
+            style="-webkit-transform:translate3d(0px, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0px, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0px, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0px, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+            class="moving-text-inner">
+            <div class="moving-text">Travel     -     Business     -     Sport     -     Lifestyle     -     Design
+                -
+                TechFood     -     Fashion     -     Health     -     Entertainment     -     Science     -     Finance
+                -
+                Music     -     Art     -     Environment     -     Education     -     Politics     -     Culture
+                -
+                Gaming     -     Wellness     -     Automotive     -     Travel     -     Photography     -
+                Innovation     -
+                Science     -     Finance     -     Music     -     Art     -     Environment     -     Education
+                -
+                Politics     -     Culture     -     Gaming     -     Wellness     -     Automotive     -     Travel
+                -
+                Photography     -     Innovation</div>
+        </div>
+    </section>
     <section class="tech-category-section">
         <div class="w-layout-blockcontainer main-container w-container">
             <div class="main-title">
