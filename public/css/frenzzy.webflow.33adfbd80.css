@@ -3584,7 +3584,6 @@ blockquote {
 	box-shadow: 0 2px 15px rgba(0, 0, 0, 0.07);
 }
 
-
 .main-menu {
 	border: 2px #fff;
 	border-radius: 50px;
@@ -5267,7 +5266,7 @@ blockquote {
 
 	.home-category-list {
 		grid-template-rows: auto;
-		grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 	}
 
 	.category-grid-item {

@@ -414,7 +414,7 @@
                             class="blog-list-item w-inline-block"><img alt="" loading="lazy"
                                 src="../images/6578309e6326b68e4a349b77_post21.jpg"
                                 sizes="(max-width: 479px) 100vw, (max-width: 767px) 92vw, (max-width: 991px) 94vw, (max-width: 1439px) 28vw, 416px"
-                                srcset="https://assets-global.website-files.com/65770570a2946a7c83492a9c/6578309e6326b68e4a349b77_post21-p-500.jpg 500w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/6578309e6326b68e4a349b77_post21-p-800.jpg 800w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/6578309e6326b68e4a349b77_post21.jpg 849w"
+                                srcset="../images/6578309e6326b68e4a349b77_post21.jpg 500w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/6578309e6326b68e4a349b77_post21-p-800.jpg 800w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/6578309e6326b68e4a349b77_post21.jpg 849w"
                                 class="blog-main-image" />
                             <div class="blog-meta">
                                 <div class="category-text-style">Business</div>
