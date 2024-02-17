@@ -3584,27 +3584,6 @@ blockquote {
 	box-shadow: 0 2px 15px rgba(0, 0, 0, 0.07);
 }
 
-.header-inner {
-    animation-duration: 400ms;
-    animation-timing-function: ease;
-    transition-property: opacity, transform;
-    opacity: 0;
-    transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-}
-
-.search-div {
-    transition-property: opacity, transform;
-    opacity: 0;
-    transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-}
-
-.category-grid-item {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-    -moz-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-    -ms-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-    transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-}
 
 .main-menu {
 	border: 2px #fff;
