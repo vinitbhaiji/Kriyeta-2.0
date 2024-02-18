@@ -3571,6 +3571,7 @@ blockquote {
 	margin-right: auto;
 	padding-left: 10px;
 	padding-right: 10px;
+	padding-bottom: 50px;
 }
 
 .header-inner {
@@ -3604,13 +3605,14 @@ blockquote {
 	font-weight: 700;
 }
 
-.menu-item:hover {
-	color: #000;
+.main-menu a:hover {
+	color: #151515;
+	font-size: 16px;
 }
 
 .menu-item.w--current {
 	color: #000;
-	border-bottom: 1px solid #000;
+	/* border-bottom: 1px solid #000; */
 }
 
 .logo.w--current {
@@ -4117,6 +4119,7 @@ blockquote {
 
 .main-blog-section {
 	padding-bottom: 150px;
+	padding-top: 100px;
 }
 
 .blog-list {
@@ -4130,6 +4133,7 @@ blockquote {
 
 .blog-list-item {
 	background-color: var(--white);
+	min-height: 100%;
 	color: #000;
 	border: 1px #000;
 	border-radius: 20px;
@@ -4185,7 +4189,7 @@ blockquote {
 	background-position: 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding-top: 150px;
+	padding-top: 180px;
 	padding-bottom: 150px;
 }
 
@@ -4197,7 +4201,7 @@ blockquote {
 .main-title-heading {
 	text-transform: uppercase;
 	margin: 0;
-	font-size: 90px;
+	font-size: 75px;
 	font-weight: 300;
 	line-height: 70px;
 }
@@ -4635,7 +4639,7 @@ blockquote {
 }
 
 .categories-section {
-	padding-top: 190px;
+	padding-top: 20px;
 	padding-bottom: 100px;
 }
 
@@ -5141,6 +5145,7 @@ blockquote {
 .previous {
 	margin-top: 30px;
 }
+
 
 @media screen and (min-width: 1440px) {
 	.cart-button {

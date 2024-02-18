@@ -19,8 +19,20 @@ class IndexController extends Controller
     {
         return view('contact');
     }
+    public function login()
+    {
+        return view('login');
+    }
     public function about()
     {
         return view('about');
+    }
+    public function signup()
+    {
+        return view('signup');
+    }
+    public function test()
+    {
+        return view('test');
     }
 }

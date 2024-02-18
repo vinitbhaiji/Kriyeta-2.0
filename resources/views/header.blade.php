@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Frenzzy - Webflow HTML website template</title>
+    <title>PrepFlex - Your Personalized</title>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <meta content="Webflow" name="generator" />
     <!-- {{-- <link href="../css/frenzzy.webflow.33adfbd80.css" rel="stylesheet" type="text/css"/> --}} -->
@@ -53,7 +53,7 @@
     <div class="header">
         <div class="w-layout-blockcontainer main-container w-container">
             <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease"
-                data-easing2="ease" role="banner" class="header-inner w-nav"><a href="index.html" aria-current="page"
+                data-easing2="ease" role="banner" class="header-inner w-nav"><a href="{{url("/")}}" aria-current="page"
                     class="logo w-inline-block w--current"><img
                         src="../images/657863b7f0b946b4f8e8b45e_viber_image_2023-12-12_14-14-12-128.png" loading="lazy"
                         alt="" class="logo-img" /></a>

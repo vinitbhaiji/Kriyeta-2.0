@@ -1,87 +1,87 @@
 @extends('main')
-@section("main-section")
-    <section class="home-category">
+@section('main-section')
+    <section class="tech-category-section">
         <div class="w-layout-blockcontainer main-container w-container">
-            <div class="home-category-list-wrapper w-dyn-list">
-                <div role="list" class="home-category-list w-dyn-items">
-                    <div role="listitem" class="w-dyn-item"><a data-w-id="4cd9ff82-9f16-1c9a-a92d-da3323fc9873"
-                            style="opacity:0" href="/public/entertainment.html"
-                            class="category-grid-item w-inline-block"><img alt="" loading="lazy"
-                                src="../images/65782fe7dec1e4824058c1d2_post16.jpg"
-                                sizes="(max-width: 479px) 100vw, (max-width: 767px) 46vw, (max-width: 1439px) 22vw, 151px"
-                                srcset="https://assets-global.website-files.com/65770570a2946a7c83492a9c/65782fe7dec1e4824058c1d2_post16-p-500.jpg 500w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/65782fe7dec1e4824058c1d2_post16-p-800.jpg 800w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/65782fe7dec1e4824058c1d2_post16.jpg 849w"
-                                class="blog-category-main-image" />
-                            <div class="gradient-overlay"></div>
-                            <div class="category-name">App Development</div><img
-                                src="../images/657706245d964540c2260550_readmore.png" loading="lazy"
-                                style="opacity:0;-webkit-transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                                alt="" class="blog-arrow" />
-                        </a></div>
-                    <div role="listitem" class="w-dyn-item"><a data-w-id="4cd9ff82-9f16-1c9a-a92d-da3323fc9873"
-                            style="opacity:0" href="/public/nature.html" class="category-grid-item w-inline-block"><img
-                                alt="" loading="lazy" src="../images/6578309e6326b68e4a349b77_post21.jpg"
-                                sizes="(max-width: 479px) 100vw, (max-width: 767px) 46vw, (max-width: 1439px) 22vw, 151px"
-                                srcset="../images/6578309e6326b68e4a349b77_post21.jpg 500w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/6578309e6326b68e4a349b77_post21-p-800.jpg 800w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/6578309e6326b68e4a349b77_post21.jpg 900w"
-                                class="blog-category-main-image" />
-                            <div class="gradient-overlay"></div>
-                            <div class="category-name">Web Development</div><img
-                                src="../images/657706245d964540c2260550_readmore.png" loading="lazy"
-                                style="opacity:0;-webkit-transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                                alt="" class="blog-arrow" />
-                        </a></div>
-                    <div role="listitem" class="w-dyn-item"><a data-w-id="4cd9ff82-9f16-1c9a-a92d-da3323fc9873"
-                            style="opacity:0" href="/public/gaming.html"
-                            class="category-grid-item w-inline-block"><img alt="" loading="lazy"
-                                src="../images/657830e615a9a61836170fe6_post24.jpg"
-                                sizes="(max-width: 479px) 100vw, (max-width: 767px) 46vw, (max-width: 1439px) 22vw, 151px"
-                                srcset="https://assets-global.website-files.com/65770570a2946a7c83492a9c/657830e615a9a61836170fe6_post24-p-500.jpg 500w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/657830e615a9a61836170fe6_post24-p-800.jpg 800w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/657830e615a9a61836170fe6_post24.jpg 849w"
-                                class="blog-category-main-image" />
-                            <div class="gradient-overlay"></div>
-                            <div class="category-name">Software</div><img
-                                src="../images/657706245d964540c2260550_readmore.png" loading="lazy"
-                                style="opacity:0;-webkit-transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                                alt="" class="blog-arrow" />
-                        </a></div>
-                    <div role="listitem" class="w-dyn-item"><a data-w-id="4cd9ff82-9f16-1c9a-a92d-da3323fc9873"
-                            style="opacity:0" href="/public/App-Development.html"
-                            class="category-grid-item w-inline-block"><img alt="" loading="lazy"
-                                src="../images/6578310098806a00be591e26_post25.jpg"
-                                sizes="(max-width: 479px) 100vw, (max-width: 767px) 46vw, (max-width: 1439px) 22vw, 151px"
-                                srcset="https://assets-global.website-files.com/65770570a2946a7c83492a9c/6578310098806a00be591e26_post25-p-500.jpg 500w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/6578310098806a00be591e26_post25-p-800.jpg 800w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/6578310098806a00be591e26_post25.jpg 849w"
-                                class="blog-category-main-image" />
-                            <div class="gradient-overlay"></div>
-                            <div class="category-name">Machine Learning</div><img
-                                src="../images/657706245d964540c2260550_readmore.png" loading="lazy"
-                                style="opacity:0;-webkit-transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                                alt="" class="blog-arrow" />
-                        </a></div>
-                    <div role="listitem" class="w-dyn-item"><a data-w-id="4cd9ff82-9f16-1c9a-a92d-da3323fc9873"
-                            style="opacity:0" href="/public/science.html"
-                            class="category-grid-item w-inline-block"><img alt="" loading="lazy"
-                                src="../images/657773b343693d77d17d1a02_post1.jpg"
-                                sizes="(max-width: 479px) 100vw, (max-width: 767px) 46vw, (max-width: 1439px) 22vw, 151px"
+            <div class="main-title">
+                <h2 class="main-title-heading">Technical Courses</h2>
+                <div class="main-subtitle">We recommend especially for you</div>
+            </div>
+            <div class="tech-category-list-wrapper w-dyn-list">
+                <div role="list" class="tech-category-list w-dyn-items">
+                    <div role="listitem" class="w-dyn-item"><a data-w-id="e42a7868-a1ff-3fab-a88f-530c4a479735"
+                            style="opacity:0" href="https://www.coursera.org/learn/nlp-sequence-models" target="/"
+                            class="tech-category-item w-inline-block"><img alt="" loading="lazy"
+                                src="../images/657773b343693d77d17d1a02_post1.jpg" sizes="(max-width: 479px) 100vw, 100px"
                                 srcset="https://assets-global.website-files.com/65770570a2946a7c83492a9c/657773b343693d77d17d1a02_post1-p-500.jpg 500w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/657773b343693d77d17d1a02_post1.jpg 849w"
-                                class="blog-category-main-image" />
-                            <div class="gradient-overlay"></div>
-                            <div class="category-name">Airtificial Intellegence</div><img
-                                src="../images/657706245d964540c2260550_readmore.png" loading="lazy"
-                                style="opacity:0;-webkit-transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                                alt="" class="blog-arrow" />
+                                class="tech-category-image" />
+                            <div class="tech-text-box">
+                                <h4 class="tech-category-heading">Sequence Models
+                                </h4>
+                                <div class="tech-category-time">DeepLearning.AI</div>
+                            </div>
+                            <div class="tech-overlay"></div>
                         </a></div>
-                    <div role="listitem" class="w-dyn-item"><a data-w-id="4cd9ff82-9f16-1c9a-a92d-da3323fc9873"
-                            style="opacity:0" href="/public/education.html"
-                            class="category-grid-item w-inline-block"><img alt="" loading="lazy"
-                                src="../images/65782f566d667c772c700afb_post11.jpg"
-                                sizes="(max-width: 479px) 100vw, (max-width: 767px) 46vw, (max-width: 1439px) 22vw, 151px"
-                                srcset="https://assets-global.website-files.com/65770570a2946a7c83492a9c/65782f566d667c772c700afb_post11-p-500.jpg 500w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/65782f566d667c772c700afb_post11-p-800.jpg 800w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/65782f566d667c772c700afb_post11.jpg 849w"
-                                class="blog-category-main-image" />
-                            <div class="gradient-overlay"></div>
-                            <div class="category-name">IOT</div><img
-                                src="../images/657706245d964540c2260550_readmore.png" loading="lazy"
-                                style="opacity:0;-webkit-transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 60%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                                alt="" class="blog-arrow" />
+                    <div role="listitem" class="w-dyn-item"><a data-w-id="e42a7868-a1ff-3fab-a88f-530c4a479735"
+                            style="opacity:0" href="https://www.coursera.org/learn/introduction-to-data-analytics"
+                            target="/" class="tech-category-item w-inline-block"><img alt="" loading="lazy"
+                                src="../images/65782f0d21d2b8f2b865b120_post10.jpg" sizes="(max-width: 479px) 100vw, 100px"
+                                srcset="https://assets-global.website-files.com/65770570a2946a7c83492a9c/65782f0d21d2b8f2b865b120_post10-p-500.jpg 500w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/65782f0d21d2b8f2b865b120_post10-p-800.jpg 800w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/65782f0d21d2b8f2b865b120_post10.jpg 849w"
+                                class="tech-category-image" />
+                            <div class="tech-text-box">
+                                <h4 class="tech-category-heading">Introduction To Data Analytics</h4>
+                                <div class="tech-category-time">IBM</div>
+                            </div>
+                            <div class="tech-overlay"></div>
                         </a></div>
-
+                    <div role="listitem" class="w-dyn-item"><a data-w-id="e42a7868-a1ff-3fab-a88f-530c4a479735"
+                            style="opacity:0" href="https://www.youtube.com/watch?v=vLqTf2b6GZw" target="/"
+                            class="tech-category-item w-inline-block"><img alt="" loading="lazy"
+                                src="../images/65783182471c329927ff4a48_post2.jpg" sizes="(max-width: 479px) 100vw, 100px"
+                                srcset="https://assets-global.website-files.com/65770570a2946a7c83492a9c/65783182471c329927ff4a48_post2-p-500.jpg 500w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/65783182471c329927ff4a48_post2-p-800.jpg 800w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/65783182471c329927ff4a48_post2.jpg 849w"
+                                class="tech-category-image" />
+                            <div class="tech-text-box">
+                                <h4 class="tech-category-heading">Python Tutorial For Begginers</h4>
+                                <div class="tech-category-time">Youtube</div>
+                            </div>
+                            <div class="tech-overlay"></div>
+                        </a></div>
+                    <div role="listitem" class="w-dyn-item"><a data-w-id="e42a7868-a1ff-3fab-a88f-530c4a479735"
+                            style="opacity:0" href="https://www.youtube.com/watch?v=AA7i2GcTGwU" target="/"
+                            class="tech-category-item w-inline-block"><img alt="" loading="lazy"
+                                src="../images/657830c6855f03a70321bad0_post23.jpg" sizes="(max-width: 479px) 100vw, 100px"
+                                srcset="https://assets-global.website-files.com/65770570a2946a7c83492a9c/657830c6855f03a70321bad0_post23-p-500.jpg 500w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/657830c6855f03a70321bad0_post23-p-800.jpg 800w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/657830c6855f03a70321bad0_post23.jpg 849w"
+                                class="tech-category-image" />
+                            <div class="tech-text-box">
+                                <h4 class="tech-category-heading">MySQL Fullcourse</h4>
+                                <div class="tech-category-time">Youtube</div>
+                            </div>
+                            <div class="tech-overlay"></div>
+                        </a></div>
+                    <div role="listitem" class="w-dyn-item"><a data-w-id="e42a7868-a1ff-3fab-a88f-530c4a479735"
+                            style="opacity:0" href="https://www.udacity.com//course/intro-to-ajax--ud110" target="/"
+                            class="tech-category-item w-inline-block"><img alt="" loading="lazy"
+                                src="../images/65782f49ce97ed219a9db50e_post12.jpg" sizes="(max-width: 479px) 100vw, 100px"
+                                srcset="https://assets-global.website-files.com/65770570a2946a7c83492a9c/65782f49ce97ed219a9db50e_post12-p-500.jpg 500w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/65782f49ce97ed219a9db50e_post12.jpg 849w"
+                                class="tech-category-image" />
+                            <div class="tech-text-box">
+                                <h4 class="tech-category-heading">Introduction To AJAX</h4>
+                                <div class="tech-category-time">School Of Programming And Development</div>
+                            </div>
+                            <div class="tech-overlay"></div>
+                        </a></div>
+                    <div role="listitem" class="w-dyn-item"><a data-w-id="e42a7868-a1ff-3fab-a88f-530c4a479735"
+                            style="opacity:0" href="https://www.coursera.org/learn/ai" target="/"
+                            class="tech-category-item w-inline-block"><img alt="" loading="lazy"
+                                src="../images/65782fe7dec1e4824058c1d2_post16.jpg"
+                                sizes="(max-width: 479px) 100vw, 100px"
+                                srcset="https://assets-global.website-files.com/65770570a2946a7c83492a9c/65782fe7dec1e4824058c1d2_post16-p-500.jpg 500w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/65782fe7dec1e4824058c1d2_post16-p-800.jpg 800w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/65782fe7dec1e4824058c1d2_post16.jpg 849w"
+                                class="tech-category-image" />
+                            <div class="tech-text-box">
+                                <h4 class="tech-category-heading">Applied AI with Deep Learning</h4>
+                                <div class="tech-category-time">IBM</div>
+                            </div>
+                            <div class="tech-overlay"></div>
+                        </a></div>
                 </div>
             </div>
         </div>
@@ -93,104 +93,14 @@
             <div class="moving-text">App-Development     -     Web-Development     -     Software     -     Machine
                 Learning     -     Artificial Intelligence     -     IOt     -     App-Development     -
                 Web-Development     -     Software     -     Machine
-                Learning     -     Artificial 
-                Intelligence     -     IOt     -     App-Development     -     Web-Development     -     Software     -     Machine
+                Learning     -     Artificial
+                Intelligence     -     IOt     -     App-Development     -     Web-Development     -     Software     -
+                Machine
                 Learning     -     Artificial Intelligence     -     IOt
             </div>
         </div>
     </section>
-    <section class="tech-category-section">
-        <div class="w-layout-blockcontainer main-container w-container">
-            <div class="main-title">
-                <h2 class="main-title-heading">Tech</h2>
-                <div class="main-subtitle">latest news about technology</div>
-            </div>
-            <div class="tech-category-list-wrapper w-dyn-list">
-                <div role="list" class="tech-category-list w-dyn-items">
-                    <div role="listitem" class="w-dyn-item"><a data-w-id="e42a7868-a1ff-3fab-a88f-530c4a479735"
-                            style="opacity:0" href="/public/future-forward-technologys-evolution-unveiled.html"
-                            class="tech-category-item w-inline-block"><img alt="" loading="lazy"
-                                src="../images/657773b343693d77d17d1a02_post1.jpg"
-                                sizes="(max-width: 479px) 100vw, 100px"
-                                srcset="https://assets-global.website-files.com/65770570a2946a7c83492a9c/657773b343693d77d17d1a02_post1-p-500.jpg 500w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/657773b343693d77d17d1a02_post1.jpg 849w"
-                                class="tech-category-image" />
-                            <div class="tech-text-box">
-                                <h4 class="tech-category-heading">Future Forward: Technology&#x27;s Evolution Unveiled
-                                </h4>
-                                <div class="tech-category-time">December 12, 2023</div>
-                            </div>
-                            <div class="tech-overlay"></div>
-                        </a></div>
-                    <div role="listitem" class="w-dyn-item"><a data-w-id="e42a7868-a1ff-3fab-a88f-530c4a479735"
-                            style="opacity:0" href="/public/tech-trends-navigating-the-digital-frontier.html"
-                            class="tech-category-item w-inline-block"><img alt="" loading="lazy"
-                                src="../images/65782f0d21d2b8f2b865b120_post10.jpg"
-                                sizes="(max-width: 479px) 100vw, 100px"
-                                srcset="https://assets-global.website-files.com/65770570a2946a7c83492a9c/65782f0d21d2b8f2b865b120_post10-p-500.jpg 500w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/65782f0d21d2b8f2b865b120_post10-p-800.jpg 800w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/65782f0d21d2b8f2b865b120_post10.jpg 849w"
-                                class="tech-category-image" />
-                            <div class="tech-text-box">
-                                <h4 class="tech-category-heading">Tech Trends: Navigating the Digital Frontier</h4>
-                                <div class="tech-category-time">December 12, 2023</div>
-                            </div>
-                            <div class="tech-overlay"></div>
-                        </a></div>
-                    <div role="listitem" class="w-dyn-item"><a data-w-id="e42a7868-a1ff-3fab-a88f-530c4a479735"
-                            style="opacity:0" href="/public/tech-talk-advancements-in-science-and-tech.html"
-                            class="tech-category-item w-inline-block"><img alt="" loading="lazy"
-                                src="../images/65783182471c329927ff4a48_post2.jpg"
-                                sizes="(max-width: 479px) 100vw, 100px"
-                                srcset="https://assets-global.website-files.com/65770570a2946a7c83492a9c/65783182471c329927ff4a48_post2-p-500.jpg 500w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/65783182471c329927ff4a48_post2-p-800.jpg 800w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/65783182471c329927ff4a48_post2.jpg 849w"
-                                class="tech-category-image" />
-                            <div class="tech-text-box">
-                                <h4 class="tech-category-heading">Tech Talk: Advancements in Science and Tech</h4>
-                                <div class="tech-category-time">December 12, 2023</div>
-                            </div>
-                            <div class="tech-overlay"></div>
-                        </a></div>
-                    <div role="listitem" class="w-dyn-item"><a data-w-id="e42a7868-a1ff-3fab-a88f-530c4a479735"
-                            style="opacity:0" href="/public/bio-wonders-natures-marvels-explored.html"
-                            class="tech-category-item w-inline-block"><img alt="" loading="lazy"
-                                src="../images/657830c6855f03a70321bad0_post23.jpg"
-                                sizes="(max-width: 479px) 100vw, 100px"
-                                srcset="https://assets-global.website-files.com/65770570a2946a7c83492a9c/657830c6855f03a70321bad0_post23-p-500.jpg 500w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/657830c6855f03a70321bad0_post23-p-800.jpg 800w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/657830c6855f03a70321bad0_post23.jpg 849w"
-                                class="tech-category-image" />
-                            <div class="tech-text-box">
-                                <h4 class="tech-category-heading">Bio Wonders: Nature&#x27;s Marvels Explored</h4>
-                                <div class="tech-category-time">December 12, 2023</div>
-                            </div>
-                            <div class="tech-overlay"></div>
-                        </a></div>
-                    <div role="listitem" class="w-dyn-item"><a data-w-id="e42a7868-a1ff-3fab-a88f-530c4a479735"
-                            style="opacity:0" href="/public/lab-diaries-cutting-edge-scientific-discoveries.html"
-                            class="tech-category-item w-inline-block"><img alt="" loading="lazy"
-                                src="../images/65782f49ce97ed219a9db50e_post12.jpg"
-                                sizes="(max-width: 479px) 100vw, 100px"
-                                srcset="https://assets-global.website-files.com/65770570a2946a7c83492a9c/65782f49ce97ed219a9db50e_post12-p-500.jpg 500w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/65782f49ce97ed219a9db50e_post12.jpg 849w"
-                                class="tech-category-image" />
-                            <div class="tech-text-box">
-                                <h4 class="tech-category-heading">Lab Diaries: Cutting-edge Scientific Discoveries</h4>
-                                <div class="tech-category-time">December 12, 2023</div>
-                            </div>
-                            <div class="tech-overlay"></div>
-                        </a></div>
-                    <div role="listitem" class="w-dyn-item"><a data-w-id="e42a7868-a1ff-3fab-a88f-530c4a479735"
-                            style="opacity:0" href="/public/cosmic-curiosities-exploring-the-universe.html"
-                            class="tech-category-item w-inline-block"><img alt="" loading="lazy"
-                                src="../images/65782fe7dec1e4824058c1d2_post16.jpg"
-                                sizes="(max-width: 479px) 100vw, 100px"
-                                srcset="https://assets-global.website-files.com/65770570a2946a7c83492a9c/65782fe7dec1e4824058c1d2_post16-p-500.jpg 500w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/65782fe7dec1e4824058c1d2_post16-p-800.jpg 800w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/65782fe7dec1e4824058c1d2_post16.jpg 849w"
-                                class="tech-category-image" />
-                            <div class="tech-text-box">
-                                <h4 class="tech-category-heading">Cosmic Curiosities: Exploring the Universe</h4>
-                                <div class="tech-category-time">December 12, 2023</div>
-                            </div>
-                            <div class="tech-overlay"></div>
-                        </a></div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="under-category-section">
+    {{-- <section class="under-category-section">
         <div class="w-layout-blockcontainer main-container w-container">
             <div class="latest-blog-4-col-grid-wrapper w-dyn-list">
                 <div role="list" class="latest-blog-4-col-grid w-dyn-items">
@@ -234,7 +144,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <section class="main-blog-section">
         <div class="w-layout-blockcontainer main-container w-container">
             <div class="blog-list-wrapper w-dyn-list">
@@ -248,12 +158,12 @@
                                 srcset="https://assets-global.website-files.com/65770570a2946a7c83492a9c/65782fe7dec1e4824058c1d2_post16-p-500.jpg 500w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/65782fe7dec1e4824058c1d2_post16-p-800.jpg 800w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/65782fe7dec1e4824058c1d2_post16.jpg 849w"
                                 class="blog-main-image" />
                             <div class="blog-meta">
-                                <div class="category-text-style">Entertainment</div>
-                                <div class="reading-time">5 min Read</div><img
-                                    src="../images/65770613c4602911abe0fa5a_arrow.png" loading="lazy"
-                                    style="opacity:0" alt="" class="blog-meta-arrow" />
+                                <div class="category-text-style">COURSERA</div>
+                                <div class="reading-time">RATINGS 4.5</div><img
+                                    src="../images/65770613c4602911abe0fa5a_arrow.png" loading="lazy" style="opacity:0"
+                                    alt="" class="blog-meta-arrow" />
                             </div>
-                            <h4 class="main-blog-title">Laugh Lounge: Comedy Capers and Chuckles</h4>
+                            <h4 class="main-blog-title">Introduction to Python</h4>
                         </a></div>
                     <div data-w-id="82b4cc5a-07f5-97c9-ff5a-9e1cf4b69c19" style="opacity:0" role="listitem"
                         class="w-dyn-item"><a data-w-id="8251edd9-9261-4de3-6c77-dd69fe9ce26a"
@@ -264,12 +174,12 @@
                                 srcset="../images/6578309e6326b68e4a349b77_post21.jpg 500w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/6578309e6326b68e4a349b77_post21-p-800.jpg 800w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/6578309e6326b68e4a349b77_post21.jpg 849w"
                                 class="blog-main-image" />
                             <div class="blog-meta">
-                                <div class="category-text-style">Nature</div>
-                                <div class="reading-time">5 min Read</div><img
-                                    src="../images/65770613c4602911abe0fa5a_arrow.png" loading="lazy"
-                                    style="opacity:0" alt="" class="blog-meta-arrow" />
+                                <div class="category-text-style">IBM</div>
+                                <div class="reading-time">RATINGS 4.8</div><img
+                                    src="../images/65770613c4602911abe0fa5a_arrow.png" loading="lazy" style="opacity:0"
+                                    alt="" class="blog-meta-arrow" />
                             </div>
-                            <h4 class="main-blog-title">Oceans Unexplored: Secrets of the Deep</h4>
+                            <h4 class="main-blog-title">Introduction to Cloud Computing</h4>
                         </a></div>
                     <div data-w-id="82b4cc5a-07f5-97c9-ff5a-9e1cf4b69c19" style="opacity:0" role="listitem"
                         class="w-dyn-item"><a data-w-id="8251edd9-9261-4de3-6c77-dd69fe9ce26a"
@@ -280,12 +190,66 @@
                                 srcset="https://assets-global.website-files.com/65770570a2946a7c83492a9c/657830e615a9a61836170fe6_post24-p-500.jpg 500w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/657830e615a9a61836170fe6_post24-p-800.jpg 800w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/657830e615a9a61836170fe6_post24.jpg 849w"
                                 class="blog-main-image" />
                             <div class="blog-meta">
-                                <div class="category-text-style">Gaming</div>
-                                <div class="reading-time">5 min Read</div><img
-                                    src="../images/65770613c4602911abe0fa5a_arrow.png" loading="lazy"
-                                    style="opacity:0" alt="" class="blog-meta-arrow" />
+                                <div class="category-text-style">GOOGLE</div>
+                                <div class="reading-time">RATINGS 4.8</div><img
+                                    src="../images/65770613c4602911abe0fa5a_arrow.png" loading="lazy" style="opacity:0"
+                                    alt="" class="blog-meta-arrow" />
                             </div>
-                            <h4 class="main-blog-title">Console Corner: Exploring Gaming Platforms</h4>
+                            <h4 class="main-blog-title">Introduction to Git And Github</h4>
+                        </a></div>
+                </div>
+            </div>
+        </div>
+        <div class="w-layout-blockcontainer main-container w-container">
+            <div class="blog-list-wrapper w-dyn-list">
+                <div role="list" class="blog-list w-dyn-items">
+                    <div data-w-id="82b4cc5a-07f5-97c9-ff5a-9e1cf4b69c19" style="opacity:0" role="listitem"
+                        class="w-dyn-item"><a data-w-id="8251edd9-9261-4de3-6c77-dd69fe9ce26a"
+                            href="/public/laugh-lounge-comedy-capers-and-chuckles.html"
+                            class="blog-list-item w-inline-block"><img alt="" loading="lazy"
+                                src="../images/65782fe7dec1e4824058c1d2_post16.jpg"
+                                sizes="(max-width: 479px) 100vw, (max-width: 767px) 92vw, (max-width: 991px) 94vw, (max-width: 1439px) 28vw, 406.671875px"
+                                srcset="https://assets-global.website-files.com/65770570a2946a7c83492a9c/65782fe7dec1e4824058c1d2_post16-p-500.jpg 500w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/65782fe7dec1e4824058c1d2_post16-p-800.jpg 800w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/65782fe7dec1e4824058c1d2_post16.jpg 849w"
+                                class="blog-main-image" />
+                            <div class="blog-meta">
+                                <div class="category-text-style">COURSERA</div>
+                                <div class="reading-time">RATINGS 4.0</div><img
+                                    src="../images/65770613c4602911abe0fa5a_arrow.png" loading="lazy" style="opacity:0"
+                                    alt="" class="blog-meta-arrow" />
+                            </div>
+                            <h4 class="main-blog-title">Basic Artificial Neural Networks</h4>
+                        </a></div>
+                    <div data-w-id="82b4cc5a-07f5-97c9-ff5a-9e1cf4b69c19" style="opacity:0" role="listitem"
+                        class="w-dyn-item"><a data-w-id="8251edd9-9261-4de3-6c77-dd69fe9ce26a"
+                            href="/public/oceans-unexplored-secrets-of-the-deep.html"
+                            class="blog-list-item w-inline-block"><img alt="" loading="lazy"
+                                src="../images/6578309e6326b68e4a349b77_post21.jpg"
+                                sizes="(max-width: 479px) 100vw, (max-width: 767px) 92vw, (max-width: 991px) 94vw, (max-width: 1439px) 28vw, 406.671875px"
+                                srcset="../images/6578309e6326b68e4a349b77_post21.jpg 500w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/6578309e6326b68e4a349b77_post21-p-800.jpg 800w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/6578309e6326b68e4a349b77_post21.jpg 849w"
+                                class="blog-main-image" />
+                            <div class="blog-meta">
+                                <div class="category-text-style">COURSERA</div>
+                                <div class="reading-time">RATINGS 4.4</div><img
+                                    src="../images/65770613c4602911abe0fa5a_arrow.png" loading="lazy" style="opacity:0"
+                                    alt="" class="blog-meta-arrow" />
+                            </div>
+                            <h4 class="main-blog-title">PostMan - Into To APIs</h4>
+                        </a></div>
+                    <div data-w-id="82b4cc5a-07f5-97c9-ff5a-9e1cf4b69c19" style="opacity:0" role="listitem"
+                        class="w-dyn-item"><a data-w-id="8251edd9-9261-4de3-6c77-dd69fe9ce26a"
+                            href="/public/console-corner-exploring-gaming-platforms.html"
+                            class="blog-list-item w-inline-block"><img alt="" loading="lazy"
+                                src="../images/657830e615a9a61836170fe6_post24.jpg"
+                                sizes="(max-width: 479px) 100vw, (max-width: 767px) 92vw, (max-width: 991px) 94vw, (max-width: 1439px) 28vw, 406.671875px"
+                                srcset="https://assets-global.website-files.com/65770570a2946a7c83492a9c/657830e615a9a61836170fe6_post24-p-500.jpg 500w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/657830e615a9a61836170fe6_post24-p-800.jpg 800w, https://assets-global.website-files.com/65770570a2946a7c83492a9c/657830e615a9a61836170fe6_post24.jpg 849w"
+                                class="blog-main-image" />
+                            <div class="blog-meta">
+                                <div class="category-text-style">University of California</div>
+                                <div class="reading-time">RATINGS 4.2</div><img
+                                    src="../images/65770613c4602911abe0fa5a_arrow.png" loading="lazy" style="opacity:0"
+                                    alt="" class="blog-meta-arrow" />
+                            </div>
+                            <h4 class="main-blog-title">The Blockchain System</h4>
                         </a></div>
                 </div>
             </div>
@@ -293,7 +257,7 @@
     </section>
 
 
-    <section class="education-category-section">
+    {{-- <section class="education-category-section">
         <div class="w-layout-blockcontainer main-container w-container">
             <div class="main-title">
                 <h2 class="main-title-heading">education</h2>
@@ -370,8 +334,8 @@
                 </div>
             </div>
         </div>
-    </section>
-    <section class="mixed-section">
+    </section> --}}
+    {{-- <section class="mixed-section">
         <div class="w-layout-blockcontainer main-container w-container">
             <div class="main-title">
                 <h2 class="main-title-heading">mixed</h2>
@@ -427,5 +391,5 @@
                 </div>
             </div>
         </div>
-    </section>
-    @endsection
+    </section> --}}
+@endsection
