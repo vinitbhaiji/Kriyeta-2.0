@@ -5,7 +5,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.flex{
+    display: flex;
+}
+.column{
+    flex-direction: column;
+}
 body{
     background-color: #333;
 }
@@ -82,6 +87,7 @@ body{
     padding: 5px 25px;
     background-color: #21bf73;
 }
+
 @media(max-width:576px){
     .question{
         width: 100%;

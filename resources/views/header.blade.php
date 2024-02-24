@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>PrepFlex - Your Personalized</title>
+    <title>FlexPrep - Your Personalized AI Learning Platform</title>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <meta content="Webflow" name="generator" />
     <!-- {{-- <link href="../css/frenzzy.webflow.33adfbd80.css" rel="stylesheet" type="text/css"/> --}} -->
@@ -53,28 +53,25 @@
     <div class="header">
         <div class="w-layout-blockcontainer main-container w-container">
             <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease"
-                data-easing2="ease" role="banner" class="header-inner w-nav"><a href="{{url("/")}}" aria-current="page"
-                    class="logo w-inline-block w--current"><img
+                data-easing2="ease" role="banner" class="header-inner w-nav"><a href="{{ url('/') }}"
+                    aria-current="page" class="logo w-inline-block w--current"><img
                         src="../images/657863b7f0b946b4f8e8b45e_viber_image_2023-12-12_14-14-12-128.png" loading="lazy"
                         alt="" class="logo-img" /></a>
-                        <nav role="navigation" class="main-menu w-nav-menu"><a href="{{url("/")}}" aria-current="page"
-                            class="menu-item w-nav-link w--current">Home</a>
-                            <a href="{{url("about")}}"
-                            class="menu-item w-nav-link">About</a>
-                            <a href="{{url("categories")}}"
-                            class="menu-item w-nav-link">categories</a>
-                        <a href="{{url("contact")}}" class="menu-item w-nav-link">contact</a>
-                    </nav>
+                <nav role="navigation" class="main-menu w-nav-menu"><a href="{{ url('/') }}" aria-current="page"
+                        class="menu-item w-nav-link w--current">Home</a>
+                    <a href="{{ url('about') }}" class="menu-item w-nav-link">About</a>
+                    <a href="{{ url('categories') }}" class="menu-item w-nav-link">categories</a>
+                    <a href="{{ url('contact') }}" class="menu-item w-nav-link">contact</a>
+                </nav>
                 <div class="menu-button w-nav-button">
                     <div class="icon w-icon-nav-menu"></div>
                 </div>
                 <div class="header-right-side">
-                    <form action="https://frenzzy.webflow.io/search" class="search-div w-form"><input
-                            class="search-field w-input" maxlength="256" name="query" placeholder="type something"
-                            type="search" id="search" required="" /><input type="submit"
-                            class="search-button w-button" value="Search" /><img
-                            src="../images/65770624f4c813026b58f30c_search.png" loading="lazy" alt=""
-                            class="image" /></form>
+                    <div class="signup_login">
+                        <a href="{{ url('login') }}">Login</a>
+                        <span>|</span>
+                        <a href="{{ url('signup') }}">Sign-up</a>
+                    </div>
                 </div>
             </div>
         </div>

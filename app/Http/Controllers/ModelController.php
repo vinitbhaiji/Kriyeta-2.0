@@ -12,12 +12,12 @@ class ModelController extends Controller
         // Retrieve form data
         $answer1 = $request->input('answer1');
         $answer2 = $request->input('answer2');
+        $answer3 = $request->input('answer3');
 
         // Serialize data to JSON
-        $formDataJson = json_encode(['answer1' => $answer1, 'answer2' => $answer2]);
-
+        $formDataJson = json_encode(['answer1' => $answer1, 'answer2' => $answer2, 'answer3' => $answer3]);
         // Call Python script passing form data as argument
-        $process = new Process(["python", "C:\xampp2\htdocs\git\Kriyeta-2.0\app\python\course_recommender.py", $formDataJson]);
+        $process = new Process(["python", "C:\xampp2\htdocs\git\Kriyeta-2.0\app\python\recommendation_model.py", $formDataJson]);
         $process->run();
 
         // Handle output from Python script
